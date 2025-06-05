@@ -1,17 +1,17 @@
 ### Корневой GET запрос
-GET http://localhost:5001/
+GET http://localhost:7005/
 
 ### Получить статистику
-GET http://localhost:5001/stats
+GET http://localhost:7005/stats
 
 ### Добавить комментарий
-POST http://localhost:5001/comments
+POST http://localhost:7005/comments
 Content-Type: application/json
 
 {
-  "text": "Комментарий от",
-  "author": "Павел"
+  "text": "Комментарий от:",
+  "author": "Артём"
 }
 
 ### Несуществующий маршрут
-GET http://localhost:5001/unknown
+GET http://localhost:7005/unknown
